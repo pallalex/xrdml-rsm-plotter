@@ -2,6 +2,8 @@
 
 I wrote this Python script to check my X-ray diffraction measurements on thin films. It reads PANalytical XRDML files and displays either a reciprocal space map (Qx–Qz) or a 1D 2θ–ω scan, depending on the data. It also prints the position of the strongest peak.
 
+![Example reciprocal space map](example_rsm.png)
+
 ## How to run
 
 1. Install NumPy and Matplotlib with `python -m pip install numpy matplotlib`.
